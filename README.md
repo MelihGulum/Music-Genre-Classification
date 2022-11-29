@@ -8,3 +8,5 @@
 - DATASET
 - DEEP LEARNING
 - WEB APPLICATION - FLASK
+
+# :pencil: About The Project
