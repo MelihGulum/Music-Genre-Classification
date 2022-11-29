@@ -10,6 +10,7 @@
   <ol>
     <li><a href="#about_the_project"> ABOUT THE PROJECT</a></li>
     <li><a href="#dataset">  DATASET</a></li>
+    <li><a href="#preprocess"> PREPROCESS</a></li>
     <li><a href="#deep_learning"> DEEP LEARNING</a></li>
     <li><a href="#web_application_flask"> WEB APPLICATION - FLASK</a></li>
     <li><a href="#how_to_run"> HOW TO RUN</a></li>
@@ -18,4 +19,4 @@
 
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
-<p>This project aims to classify music genres. Music Genre Classification is an Audio Signal Processing project. <strong>Signal Processing</strong> is one of the sub-fields of Deep Learning apart from <em>Image Processing</em> and <em>Natural Language Processing</em>.</p>
+<p>This project aims to classify music genres. Music Genre Classification is an Audio Signal Processing project. <strong>Signal Processing</strong> is one of the sub-fields of Deep Learning apart from <em>Image Processing</em> and <em>Natural Language Processing</em>.</p> The GTZAN dataset consists of "<strong>wav</strong>" audio files. The Librosa library was used to extract the features of these audio files (more on Preprocess section). 
