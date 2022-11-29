@@ -24,8 +24,7 @@
 <p>The [GTZAN] (https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) dataset was used. Briefly, the data set consists of 10 classes and the CSV file contains many attributes such as MFCC, Chroma, RMS. . In addition, there are two different CSV in the dataset, whose attributes are extracted on the basis of 3 seconds and 30 seconds. </p>
 <p align="center">   
   <img src="https://user-images.githubusercontent.com/81585804/204538070-b036f85f-a95b-4a92-858c-d64687081f1a.png" alt="Table1: 18 Activities" width="45%" height="45%"></img>
-  <em>The CLasses of GTZAN (Image by Author)</em>       
-  <!--figcaption>The CLasses of GTZAN (Image by Author)</figcaption-->
+  <!--figcaption><em>The CLasses of GTZAN (Image by Author)</em> </figcaption-->
 </p>
 
 
