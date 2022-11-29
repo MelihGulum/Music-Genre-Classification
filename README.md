@@ -31,6 +31,7 @@
 <h2 id="preprocess"> :hammer_and_wrench: PREPROCESS</h2>
 <p align="justify"> As I said earlier, Librosa was used for feature extraction. Features in CSV were not used. I extracted my own features instead of these features,. These features are the top 13 of the MFCCs. Each data was read sequentially. At the same time, the MFCC features are extracted and their labels are respectively added to a json file. </p>
 <p align="justify">The code cell below, can be seen how MFCC's are extracted.</p>
+
 ```python
 y, sample_rate = librosa.load(file_path, sr=SAMPLE_RATE)
 librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
