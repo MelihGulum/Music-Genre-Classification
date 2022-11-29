@@ -30,6 +30,6 @@
 </p>
 </p>
 
-
+![Music Genre Classifier](https://user-images.githubusercontent.com/81585804/204538070-b036f85f-a95b-4a92-858c-d64687081f1a.png)
 
 <h2 id="preprocess"> :hammer_and_wrench: PREPROCESS</h2>
