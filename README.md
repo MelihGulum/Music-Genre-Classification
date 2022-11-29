@@ -17,3 +17,5 @@
 </details>
 
 <h2 id="about-the-project"> :pencil: About The Project</h2>
+
+<p>This project aims to classify music genres. Music Genre Classification is an Audio Signal Processing project. <strong>Signal Processing</strong> is one of the sub-fields of Deep Learning apart from <em>Image Processing</em> and <em>Natural Language Processing</em>.</p>
