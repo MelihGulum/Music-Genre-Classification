@@ -18,7 +18,7 @@
 </details>
 
 <h2 id="dataset"> :pencil: About The Project</h2>
-<p align="justify">This project aims to classify music genres. Music Genre Classification is an Audio Signal Processing project. <strong>Signal Processing</strong> is one of the sub-fields of Deep Learning apart from <em>Image Processing</em> and <em>Natural Language Processing</em>. The GTZAN dataset consists of "<strong>wav</strong>" audio files. The Librosa library was used to extract the features of these audio files (more on Preprocess section). Different architectures have been created to classification (NN, LSTM, CNN...).</p>
+<p align="justify">This project aims to classify music genres. Music Genre Classification is an Audio Signal Processing project. <strong>Signal Processing</strong> is one of the sub-fields of Deep Learning apart from <em>Image Processing</em> and <em>Natural Language Processing</em>. The GTZAN dataset consists of "<strong>wav</strong>" audio files. The Librosa library was used to extract the features of these audio files (more on Preprocess section). Different architectures have been created to classification (NN, LSTM, CNN...).</p><br>
 
 <h2 id="preprocess"> :floppy_disk: DATASET</h2>
 <p align="justify">The <a href="https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification">GTZAN</a> dataset was used. Briefly, the data set consists of 10 classes and the CSV file contains many attributes such as MFCC, Chroma, RMS. In addition, there are two different CSV in the dataset, whose attributes are extracted on the basis of 3 seconds and 30 seconds. </p>
