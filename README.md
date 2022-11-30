@@ -68,7 +68,7 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 			url VARCHAR(50),
 			message VARCHAR(200),
 			reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-			)
+			);
 ```
 
 
