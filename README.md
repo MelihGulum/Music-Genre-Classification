@@ -13,6 +13,8 @@
     <li><a href="#preprocess"> PREPROCESS</a></li>
     <li><a href="#deep_learning"> DEEP LEARNING</a></li>
     <li><a href="#web_application_flask"> WEB APPLICATION - FLASK</a></li>
+         <ul><a href="#database">DATABASE</a></ul>
+         <ul><a href="">MP3</a></ul>
     <li><a href="#how_to_run"> HOW TO RUN</a></li>
   </ol>
 </details>
@@ -40,10 +42,12 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 <h2 id="deep_learning"> :desktop_computer: DEEP LEARNING</h2>
 
 
+![MusicGenre_CNN_79 73 h5](https://user-images.githubusercontent.com/81585804/204745883-6e15c799-f11e-4439-a034-09e208442ea6.png)
 
 
 <h2 id="web_application_flask"> :rocket: WEB APPLICATION - FLASK</h2>
 
+<h2 id="database" style="font-size:5px;"> :package: DATABASE</h2>
 
 
 <h2 id="how_to_run"> :running: HOW TO RUN</h2>
