@@ -47,7 +47,7 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 
 <h2 id="web_application_flask"> :rocket: WEB APPLICATION - FLASK</h2>
 
-<h2 id="database" style="font-size:5px;"> :package: DATABASE</h2>
+<h3 id="database" style="font-size:5px;"> :package: DATABASE</h3>
 
 
 <h2 id="how_to_run"> :running: HOW TO RUN</h2>
