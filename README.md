@@ -47,7 +47,7 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 
 <h2 id="deep_learning"> :desktop_computer: DEEP LEARNING</h2>
 <p align="justify">Various architectures were built for training. Some of these are ANN, Vanilla LSTM, Stacked LSTM and various CNN architectures. The best was CNN architecture. Later the model was strengthened with regularizer, normalization etc. In short, the model consisted of <em>three Convolutional Layers</em> and an <em>output layer</em>. Pooling Layer and Normalization Layers follow Conv Layer. The accuracy of the model on the test dataset is almost <strong>80%</strong>. The model architecture can be seen below.</p>
-  <img src="https://user-images.githubusercontent.com/81585804/204745883-6e15c799-f11e-4439-a034-09e208442ea6.png" alt="Model Architecture">
+  <img src="https://user-images.githubusercontent.com/81585804/204745883-6e15c799-f11e-4439-a034-09e208442ea6.png" alt="Model Architecture" height="200px;">
  <p align="center"> <em>Model Architecture (Image by Author)</em> </p>
  
  
@@ -80,7 +80,7 @@ CREATE TABLE contacts (
 
 
 <h3 id="screenshots"> :camera: Screenshots</h3>
-  <img src="https://user-images.githubusercontent.com/81585804/204807317-1a3edabd-d173-436e-b0a9-080d59ac7104.gif" alt="Screenshots">
+  <img src="https://user-images.githubusercontent.com/81585804/204807317-1a3edabd-d173-436e-b0a9-080d59ac7104.gif" alt="Screenshots" width="45%" height="45%">
 
 
 
