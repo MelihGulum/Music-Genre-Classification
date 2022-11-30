@@ -61,19 +61,15 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 <p align="justify">SQL query that saves data to MySQL database:</p>
 
 ```sql
-create database dbname;
-```
-
-```sql
-		CREATE TABLE contacts (
-			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-			fullname VARCHAR(30) NOT NULL,
-			email VARCHAR(30) NOT NULL,
-			phone_number VARCHAR(50),
-			url VARCHAR(50),
-			message VARCHAR(200),
-			reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-			);
+	CREATE TABLE contacts (
+		id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+		fullname VARCHAR(30) NOT NULL,
+		email VARCHAR(30) NOT NULL,
+		phone_number VARCHAR(50),
+		url VARCHAR(50),
+		message VARCHAR(200),
+		reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+		);
 ```
 
 
