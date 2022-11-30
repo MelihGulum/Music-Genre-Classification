@@ -59,6 +59,11 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 <h3 id="database"> :package: DATABASE</h3>
 <p align="justify">Users can contact the team on the Contact Page. After users submit the form, various information is saved/logged in the <strong>MySQL</strong> database and mailed to the predefined email address.</p>
 <p align="justify">SQL query that saves data to MySQL database:</p>
+
+```sql
+create database dbname;
+```
+
 ```sql
 		CREATE TABLE contacts (
 			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
