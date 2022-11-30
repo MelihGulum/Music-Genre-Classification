@@ -79,7 +79,7 @@ CREATE TABLE contacts (
 
 <h2 id="how_to_run"> :running: HOW TO RUN</h2>
 1. Fork this repository.
-2. 
+
  ```console
 $ git clone https://github.com/MelihGulum/Music-Genre-Classification.git
 
