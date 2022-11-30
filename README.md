@@ -79,7 +79,7 @@ CREATE TABLE contacts (
 
 
 
-<h3 id="screenshots"> :camera: Screenshots</h3>
+<h3 id="screenshots"> :camera: SCREENSHOTS</h3>
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/81585804/204807317-1a3edabd-d173-436e-b0a9-080d59ac7104.gif" alt="Screenshots" width="70%" height="70%">
 </p>
