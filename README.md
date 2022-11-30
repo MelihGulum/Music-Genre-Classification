@@ -61,25 +61,36 @@ librosa.feature.mfcc(y, sample_rate, n_mfcc=13, n_fft=2048, hop_length=512)
 <p align="justify">SQL query that saves data to MySQL database:</p>
 
 ```sql
-	CREATE TABLE contacts (
-		id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-		fullname VARCHAR(30) NOT NULL,
-		email VARCHAR(30) NOT NULL,
-		phone_number VARCHAR(50),
-		url VARCHAR(50),
-		message VARCHAR(200),
-		reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-		);
+CREATE TABLE contacts (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	fullname VARCHAR(30) NOT NULL,
+	email VARCHAR(30) NOT NULL,
+	phone_number VARCHAR(50),
+	url VARCHAR(50),
+	message VARCHAR(200),
+	reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+	);
 ```
 
 
 <h3 id="mp3"> :musical_note: MP3</h3>
-<p align="justify">The model cannot predict MP3 audio files. That's why FFMPEG was used (<em>but first, path must be saved on system environments</em>). FFMPEG converts uploaded mp3 files to wav files. </p>
+<p align="justify">The model cannot predict MP3 audio files. That's why FFMPEG was used ( :warning: <em>but first, path must be saved on system environments</em>). FFMPEG converts uploaded mp3 files to wav files. </p>
 
 
 <h2 id="how_to_run"> :running: HOW TO RUN</h2>
+1. Fork this repository.
+ ```console
+$ git clone [https://github.com/MelihGulum/Facial-Emotion-Recognition.git](https://github.com/MelihGulum/Music-Genre-Classification.git)
 
+```
 
+2. Load the dependencies of the project
+
+ ```console
+pip install -r requirements.txt
+```
+
+3. Now you can run MGC_flask.py. 
 
 
 
